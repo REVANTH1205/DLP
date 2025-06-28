@@ -1,0 +1,65 @@
+/* Upload Section Styles */
+.upload-section {
+    background-color: #e8f5e9; /* Light green background */
+    color: #388e3c; /* Green color for text */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .upload-section h3 {
+    text-align: center;
+    font-size: 24px;
+    color: #388e3c;
+  }
+  
+  .upload-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .upload-section input[type="file"] {
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #388e3c;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .upload-section select {
+    padding: 10px;
+    border: 1px solid #388e3c;
+    border-radius: 4px;
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .upload-section button {
+    background-color: #388e3c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .upload-section button:hover {
+    background-color: #2e7d32;
+  }
+  
+  .upload-section p {
+    text-align: center;
+    font-size: 16px;
+    color: #388e3c;
+    margin-top: 10px;
+  }
+  

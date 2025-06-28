@@ -1,0 +1,6 @@
+this mini project in this folder details 
+
+* IPFS has been connected to the Pinata IPFS and successfully upload the file to IPFS and generate the hash for    it 
+
+* The contract and the test file for the contract has been successfully created and successfully compiled without any error as per the video : https://www.youtube.com/watch?v=1KwaUyjLa4Q 
+TimeStamp ::  36:42 

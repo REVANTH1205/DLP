@@ -1,0 +1,81 @@
+/* Officer Dashboard Styles */
+.officer-dashboard {
+    background-color: #f3f3f3; /* Light yellow background */
+    color: #1f1e1c; /* Officer role color */
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  .officer-dashboard h3 {
+    color: #252421;
+    text-align: center;
+    font-size: 28px;
+  }
+  
+  .officer-dashboard h4 {
+    color: #21201c;
+    font-size: 20px;
+  }
+  
+  .officer-dashboard table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .officer-dashboard table th,
+  .officer-dashboard table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+    font-size: 16px;
+  }
+  
+  .officer-dashboard table th {
+    background-color: #100e08;
+    color: white;
+  }
+  
+  .officer-dashboard table td {
+    background-color: #fffefa;
+  }
+   /* Fixed Logout Button */
+  .logout-button {
+    position: relative;
+    top: 20px;
+    right: 0px;
+    padding: 10px 20px;
+    background-color: #d32f2f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    z-index: 1000; /* Ensures it appears on top of other elements */
+  }
+  
+  .logout-button:hover {
+    background-color: #b71c1c;
+  }
+  .officer-dashboard button {
+    background-color: #fbc02d;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .officer-dashboard button:hover {
+    background-color: #0b0b0a;
+  }
+  
+  .officer-dashboard button:disabled {
+    background-color: #e0e0e0;
+    cursor: not-allowed;
+  }
+  
